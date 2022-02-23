@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "dumi_components",
   "version": "1.0.0",
   "scripts": {
@@ -12,6 +11,13 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/OWNER"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wangxinyugithub/dumi_components.git"
   },
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
