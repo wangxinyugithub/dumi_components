@@ -1,5 +1,5 @@
 {
-  "name": "dumi_components",
+  "name": "@wangxinyu1/dumi_components",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
@@ -11,9 +11,6 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
