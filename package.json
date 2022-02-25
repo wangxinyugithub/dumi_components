@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git@github.com:wangxinyugithub/dumi_components.git"
   },
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "gitHooks": {
