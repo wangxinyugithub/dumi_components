@@ -1,6 +1,6 @@
 {
   "name": "@wangxinyu1/dumi_components",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -29,10 +29,6 @@
     "*.ts?(x)": [
       "prettier --parser=typescript --write"
     ]
-  },
-  "peerDependencies": {
-    "antd": "^3.26.20",
-    "react": "^16.12.0 || ^17.0.0"
   },
   "dependencies": {
     "antd": "^3.26.20",
